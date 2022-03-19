@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 
 class InstagramBot():
     def __init__(self, email, password):
-        self.browser = webdriver.Chrome('/Users/Metzi/Downloads/chromedriver')
+        self.browser = webdriver.Chrome('/Users/Downloads/chromedriver')
         self.email = email
         self.password = password
 
